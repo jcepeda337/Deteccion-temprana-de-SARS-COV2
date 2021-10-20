@@ -1,6 +1,5 @@
 """
 DIAGNÓSTICO TEMPRANO DE COVID 
-MADE BY JULIAN MOLINA, SEBASTIAN CEPEDA
 05/2021 VERSION 1.0
 
 DATASET: https://zenodo.org/record/4048312#.YLktNMzPxEb
@@ -78,7 +77,7 @@ for counter, name in enumerate(names_to_convert):
           if (samples_to_extract_covid[counter] == 'COVID-19' and samples_to_extract_probability[counter] >= 0.11):
               subprocess.call(["ffmpeg", "-i", path+name+".ogg", folder_covid+name+".wav"])
 
-#Proceso de segmentacion:
+#segmentar:
 def cut_signal(x,fs):
     rms = np.sqrt(np.mean(np.square(x)))
     umbral_low = 0.1 * rms
