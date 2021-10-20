@@ -8,6 +8,3 @@ Se realizó el pre-procesamiento de los datos, extracción de características, 
 HECHO POR: 
 J. SEBASTIAN CEPEDA B. Linkedin: https://www.linkedin.com/in/juan-sebastian-cepeda-benavides-9b2b76213/
 
-JULIAN MOLINA CAMPOS.  Linkedin: https://www.linkedin.com/in/julian-steven-molina-campos-495b75213/
-
-https://clipchamp.com/watch/1xsXQUSQSnU
